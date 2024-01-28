@@ -1,0 +1,86 @@
+
+body {
+    background-color: rgb(1, 106, 106);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#main {
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px 5px rgb(54, 46, 46);
+    width: 50%; /* Adjusted width */
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h1 {
+    color: azure;
+    display: inline-block;
+    width: 100px;
+    margin: 0;
+}
+
+button {
+    
+    text-decoration: none;
+    border: none;
+    background-color: rgb(1, 106, 106);
+    color: #ffffff;
+    cursor: pointer;
+    /* Adjusted padding for buttons */
+    border-radius: 8px; /* Adjusted border-radius for buttons */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+    transition: box-shadow 0.3s ease;
+    margin: 5px;
+    font-size: 16px;
+    
+     /* Adjusted font size for buttons */
+}
+
+.start-btn {
+    background-color: rgb(1, 106, 106);
+    color: #ffffff;
+    width: 150px;
+    padding: 15px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+#main-two {
+    padding-top: 30px;
+}
+
+#min, #sec,#mins {
+    margin-top: 30px;
+    font-size: 50px; /* Adjusted font size for minutes and seconds */
+}
+
+/* Additional styles for better button alignment */
+#main > div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.function-btn {
+    margin-top: 30px;
+    flex-grow: 1;
+    width: auto; /* Allow buttons to be normal size */
+}
+.function-btn > svg {
+    
+    width: 24px; /* Adjusted width for icons */
+    margin-right: 5px; /* Reduced gap between icons */
+}
+.start-btn:hover {
+    background-color: rgb(206, 185, 159);
+    color: rgb(118, 98, 98);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.6);
+}
